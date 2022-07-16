@@ -1,0 +1,143 @@
+body {
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:#40514E;
+    font-size: 1.5rem;
+}
+/* 而在調整字條大小上若使用%(100%為16px大小)或em(1em為16px大小)，font-size是會由子繼承父的設定
+例如父字體調整為200%，子字體調整為200%，那子字體實際上則會是顯示400%大小
+一種避免的方式是子設定可以改用rem，就可以避免繼承父設定 */
+h1 {
+    font-size: 5.25rem;
+    margin:50px auto 0 auto;
+    font-family: 'Merriweather', serif;
+    color: #9C0F48;
+    /* line-height: 2; 可以提整字上下的高*/
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #9C0F48;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #1A4D2E;
+}
+hr {
+    border-style: none;
+    border-top-style:dotted;
+    border-color: #EAF6F6;
+    border-width:10px;
+    width:5%;
+    margin: 100px auto 100px auto;
+}
+p {
+    line-height: 2;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.top-container {
+    background-color:#8FBDD3;
+    position: relative;
+    padding-top:100px;
+}
+.middle-container {
+    background-color: #E4D1B9;
+    padding: 100px 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 150px auto 150px auto;
+    text-align:left;
+}
+.skill-row-images1 {
+    width: 35%;
+    float: left;
+    margin-right:30px ;
+}
+/* .code skill description{
+    /* clear: left; 其效果有點像anti-float*/ 
+
+.skill-row-images2 {
+    width: 35%;
+    float: right;
+    margin-left:30px ;
+}
+/* .contact-me{
+    padding-bottom: 2rem;
+} */
+
+
+.bottom-container {
+    padding: 50px 0 20px;
+    background-color: #BE8C63;
+}
+.footer-link {
+    color: #1A4D2E;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6
+}
+
+
+.bottom-cloud {
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+.top-cloud {
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
